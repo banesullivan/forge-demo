@@ -1,0 +1,9 @@
+jupyter
+vtk
+pyvista
+PVGeo
+scikit-learn
+imageio
+matplotlib
+pandas
+shapefile
