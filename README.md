@@ -9,8 +9,14 @@ A quick demo of PyVista and similar efforts for a geothermal project site.
 git clone git@github.com:banesullivan/forge-demo.git
 cd forge-demo
 unzip data.zip -d data
-pip install -r requirements.txt
-jupyter notebook &
+
+conda create -n demo python=3.7
+conda activate demo
+conda install jupyter
+
+python -m pip install -r requirements.txt
+
+python -m jupyter notebook
 ```
 
 ## Demo
